@@ -42,8 +42,13 @@
 
 
 /* Defaults for these values. */
-static size_t const NUM_BUFFERS = 512;
-static size_t const NUM_SAMPLES_PER_BUFFER = (4 * 1024);
+//static size_t const NUM_BUFFERS = 512;
+//static size_t const NUM_SAMPLES_PER_BUFFER = (4 * 1024);
+//static size_t const NUM_TRANSFERS = 32;
+//static size_t const STREAM_TIMEOUT_MS = 3000;
+
+static size_t const NUM_BUFFERS = 64;
+static size_t const NUM_SAMPLES_PER_BUFFER = (4 * 256);
 static size_t const NUM_TRANSFERS = 32;
 static size_t const STREAM_TIMEOUT_MS = 3000;
 
