@@ -1,6 +1,6 @@
 # gr-bladeRF
 
-GNU Radio source and sink blocks for bladeRF devices.
+This is a fork of GNU Radio source and sink blocks for bladeRF devices. The only difference is the reduction in the default number and size of the Tx buffers in the sink to reduce latency.
 
 ## bladeRF wiki
 
